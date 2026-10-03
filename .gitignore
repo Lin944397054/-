@@ -1,0 +1,61 @@
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
+/.idea
+/app/bin
+# Environment variables and local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+credentials.json
+service-account*.json
+test-output.txt
+# IDEA code analysis
+qodana.yaml
+
+app/src/main/resources/application-dev.yml
+
+# AI Assistant documentation
+CLAUDE.local.md
+GEMINI.md
+
+# Playwright MCP
+.playwright-mcp/
+frontend/test-results/
+frontend/playwright-report/
+/.agents
+skills-lock.json
+
+# Local runtime data, user uploads, datasets and model artifacts
+/data/
+/dataset/
+/datasets/
+/model/
+/models/
+/uploads/
+/storage/
+/local-data/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+*.tflite
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.joblib
+*.sqlite
+*.sqlite3
+*.db
